@@ -1,0 +1,14 @@
+{
+    "saudacoes": {
+        "palavras_chave": ["olá", "oi", "bom dia", "boa tarde", "boa noite"],
+        "respostas": ["Olá! Como posso ajudar?", "Oi! Como vai?", "Bom dia! Em que posso te ajudar?"]
+    },
+    "despedidas": {
+        "palavras_chave": ["tchau", "até mais", "adeus"],
+        "respostas": ["Até logo!", "Tchau, tenha um ótimo dia!", "Adeus, espero te ver em breve!"]
+    },
+    "perguntas_comuns": {
+        "palavras_chave": ["como", "o que", "quem", "onde", "por que"],
+        "respostas": ["Isso é interessante, vamos discutir!", "Que ótima pergunta!", "Vamos explorar essa questão juntos!"]
+    }
+}
