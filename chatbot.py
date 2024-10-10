@@ -2,15 +2,13 @@ import nltk
 from nltk.tokenize import word_tokenize
 import random
 
-# Baixar o pacote 'punkt' para garantir que a tokenização funcione
+
 nltk.download('punkt')
 
-# Lematização das frases (nesse caso, tokenização simples)
 def lematizar_frase(frase):
     palavras = word_tokenize(frase)
     return palavras
 
-# Função para processar e obter uma resposta baseada nas palavras-chave
 def obter_resposta(frase_usuario, respostas):
     palavras_usuario = lematizar_frase(frase_usuario)
     
@@ -20,7 +18,6 @@ def obter_resposta(frase_usuario, respostas):
     
     return "Desculpe, não entendi sua pergunta."
 
-# Função principal para iniciar o chatbot
 def iniciar_chatbot():
     print("Bot: Olá! Como posso te ajudar hoje? (Digite 'sair' para encerrar o chat)")
     
